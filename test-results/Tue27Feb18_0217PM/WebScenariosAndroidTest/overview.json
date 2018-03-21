@@ -1,0 +1,91 @@
+{
+  "total": 8,
+  "pass": 0,
+  "fail": 8,
+  "skip": 0,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.Scenario",
+    "com.qmetry.qaf.automation.step.client.DataDrivenScenario"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "password": "Kayakorbike",
+      "name": "A5337362",
+      "automationName": "Appium",
+      "takesScreenshot": true,
+      "browserName": "MobileOS",
+      "javascriptEnabled": true,
+      "user": "mf1840",
+      "cssSelectorsEnabled": true
+    },
+    "browser-actual-capabilities": {
+      "reportPdfUrl": "https://att.reporting.onsite.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=mf1840_RemoteWebDriver_18-02-27_14_12_13_2497&_timestamp[0]=1519769533228",
+      "available": "false",
+      "language": "English",
+      "deviceName": "1315911B",
+      "deviceId": "1315911B",
+      "resolution": "1440x2560",
+      "platform": "ANY",
+      "wifiMacAddress": "60:f1:89:10:38:4c",
+      "manufacturer": "Samsung",
+      "mode": "CONNECTED",
+      "password": "",
+      "cradleId": "ATT-HSS5/VIRTUAL/02",
+      "deviceSessionId": "mf1840_RemoteWebDriver_18-02-27_14_12_13_2497",
+      "osVersion": "7.0",
+      "automationName": "Appium",
+      "host": "att.onsite.perfectomobile.com",
+      "singleTestReportUrl": "https://att.onsite.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/180227/RemoteWebDriver_18-02-27_14_12_13_2497.xml&ownerId=mf1840&sharingCode=6fa917e5-db62-42f3-9b5a-13c73934d599",
+      "inUse": "true",
+      "takesScreenshot": "true",
+      "browserName": "MobileOS",
+      "javascriptEnabled": "true",
+      "model": "SM-G935",
+      "firmware": "hero2qlteuc-user 7.0 NRD90M G935AUCU4BQK2 release-keys",
+      "rotatable": "true",
+      "testGridReportUrl": "https://att.reporting.onsite.perfectomobile.com?externalId[0]=mf1840_RemoteWebDriver_18-02-27_14_12_13_2497&_timestamp[0]=1519769533228",
+      "os": "Android",
+      "entityType": "remote_web_driver",
+      "allocatedTo": "mf1840",
+      "serverConnector": "",
+      "securityToken": "",
+      "executionId": "mf1840_RemoteWebDriver_18-02-27_14_12_13_2497",
+      "phoneNumber": "+1 425 205 1461",
+      "webdriver.remote.sessionid": "b720822b-20e3-4fa3-a5c3-8985c35ea2cd",
+      "name": "A5337362",
+      "locationContextEnabled": "true",
+      "scriptName": "RemoteWebDriver",
+      "location": "Seattle",
+      "linkType": "lab",
+      "reportKey": "PRIVATE:RemoteWebDriver/180227/RemoteWebDriver_18-02-27_14_12_13_2497.xml",
+      "windTunnelReportUrl": "https://att.onsite.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/180227/RemoteWebDriver_18-02-27_14_12_13_2497.xml&ownerId=mf1840&sharingCode=6fa917e5-db62-42f3-9b5a-13c73934d599",
+      "user": "",
+      "operabilityRatingScore": "100",
+      "cssSelectorsEnabled": "true",
+      "status": "Connected"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "12",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "06-Sep-2017 07:56:25"
+    },
+    "run-parameters": {
+      "resources": "src/main/resources/common",
+      "driver.capabilities.name": "A5337362",
+      "baseurl": ""
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_162",
+      "os.arch": "amd64",
+      "host": "DESKTOP-2S6K0V0",
+      "os.name": "Windows 10",
+      "user.name": "mf1840",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1519769882777,
+  "endTime": 1519770050723
+}

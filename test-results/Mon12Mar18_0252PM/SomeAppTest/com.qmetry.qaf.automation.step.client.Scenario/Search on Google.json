@@ -1,0 +1,375 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "cucmber.goToHomeScreen",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.closeAppByIdIgnoreExceptions",
+      "args": [
+        "[com.google.android.googlequicksearchbox]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.startAppById",
+      "args": [
+        "[com.google.android.googlequicksearchbox]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "switchToContext",
+          "args": [
+            "{name=NATIVE_APP}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 8
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickPresent",
+      "args": [
+        "[Say \\\"Ok Google\\\"]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='Say \\\"Ok Google\\\"' or @id='Say \\\"Ok Google\\\"' or @value='Say \\\"Ok Google\\\"'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 688
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.iClick",
+      "args": [
+        "[//*[@resource-id=\"com.google.android.googlequicksearchbox:id/say_ok_google\"]]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"com.google.android.googlequicksearchbox:id/say_ok_google\"], using=xpath}"
+          ],
+          "result": "Element with by xpath '//*[@resource-id=\"com.google.android.googlequicksearchbox:id/say_ok_google\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'\nSystem info: host: 'ATT-MCM', ip: '192.168.16.26', os.name: 'Windows Server 2008 R2', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 481 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'DESKTOP-2S6K0V0', ip: '192.168.17.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{reportPdfUrl=https://att.reporting.onsite.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=mf1840_RemoteWebDriver_18-03-12_14_47_20_248&_timestamp[0]=1520891240305, eclipseExecutionId=mf1840_Intellij_18-03-12_13_43_51_189, available=false, language=English, deviceName=A5337362, deviceId=A5337362, resolution=1440x2560, platform=ANY, wifiMacAddress=60:f1:89:10:3f:75, manufacturer=Samsung, mode=CONNECTED, password=, cradleId=ATT-HSS5/VIRTUAL/01, deviceSessionId=01A784DA389A3978A8E17585F5463158, osVersion=7.0, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=att.onsite.perfectomobile.com, singleTestReportUrl=https://att.onsite.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/180312/RemoteWebDriver_18-03-12_14_47_20_248.xml&ownerId=mf1840&sharingCode=efa5271a-7ef3-4b7f-a11b-da41b5dd24e1, inUse=true, takesScreenshot=true, browserName=MobileOS, javascriptEnabled=true, model=Galaxy S7 Edge, platformName=Android, firmware=hero2qlteuc-user 7.0 NRD90M G935AUCU4BQK2 release-keys, applicationName=Calculator, rotatable=true, testGridReportUrl=https://att.reporting.onsite.perfectomobile.com?externalId[0]=mf1840_RemoteWebDriver_18-03-12_14_47_20_248&_timestamp[0]=1520891240304, os=Android, entityType=remote_web_driver, allocatedTo=mf1840, serverConnector=, securityToken=, executionId=mf1840_RemoteWebDriver_18-03-12_14_47_20_248, phoneNumber=+1 425 273 2438, webdriver.remote.sessionid=8025db74-6605-484f-b76b-7a1ee021e3ad, locationContextEnabled=true, scriptName=RemoteWebDriver, location=Seattle, linkType=lab, reportKey=PRIVATE:RemoteWebDriver/180312/RemoteWebDriver_18-03-12_14_47_20_248.xml, windTunnelReportUrl=https://att.onsite.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/180312/RemoteWebDriver_18-03-12_14_47_20_248.xml&ownerId=mf1840&sharingCode=efa5271a-7ef3-4b7f-a11b-da41b5dd24e1, user=, operabilityRatingScore=100, cssSelectorsEnabled=true, status=Connected}]\nSession ID: 8025db74-6605-484f-b76b-7a1ee021e3ad\n*** Element info: {Using=xpath, value=//*[@resource-id=\"com.google.android.googlequicksearchbox:id/say_ok_google\"]}",
+          "subLogs": [],
+          "duration": 497
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"com.google.android.googlequicksearchbox:id/say_ok_google\"], using=xpath}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 3187
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.google.android.googlequicksearchbox:id/say_ok_google\"]",
+            "{\"id\":\"0\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 629
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.iSet",
+      "args": [
+        "[Amazon, //*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 2206
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]",
+            "{\"id\":\"1\",\"value\":[\"Amazon\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 1678
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "pressBack",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.waitFor",
+      "args": [
+        "[3]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "findMeText",
+      "args": [
+        "[books]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.waitFor",
+      "args": [
+        "[3]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.iClick",
+      "args": [
+        "[//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 903
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 667
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.iClick",
+      "args": [
+        "[//*[@resource-id=\"com.google.android.googlequicksearchbox:id/clear_or_voice_button\"]]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"com.google.android.googlequicksearchbox:id/clear_or_voice_button\"], using=xpath}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 1717
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.google.android.googlequicksearchbox:id/clear_or_voice_button\"]",
+            "{\"id\":\"3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 592
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.iSet",
+      "args": [
+        "[dogs, //*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"], using=xpath}"
+          ],
+          "result": "id: 4",
+          "subLogs": [],
+          "duration": 1673
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]",
+            "{\"id\":\"4\",\"value\":[\"dogs\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 1917
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "pressBack",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.waitFor",
+      "args": [
+        "[3]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I go to the device home screen",
+      "type": "TestStepPass",
+      "duration": 15302,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I try to close application by id \"com.google.android.googlequicksearchbox\"",
+      "type": "TestStepPass",
+      "duration": 1208,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I start application by id \"com.google.android.googlequicksearchbox\"",
+      "type": "TestStepPass",
+      "duration": 74,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click \"Say \\\"Ok Google\\\"\" if present",
+      "type": "TestStepPass",
+      "duration": 704,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/say_ok_google\"]\"",
+      "type": "TestStepPass",
+      "duration": 5330,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I enter \"Amazon\" to \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]\"",
+      "type": "TestStepPass",
+      "duration": 3884,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I press Enter",
+      "type": "TestStepPass",
+      "duration": 892,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait for \"3\" seconds",
+      "type": "TestStepPass",
+      "duration": 3004,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then Find me this string \"books\"",
+      "type": "TestStepPass",
+      "duration": 3913,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait for \"3\" seconds",
+      "type": "TestStepPass",
+      "duration": 3002,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]\"",
+      "type": "TestStepPass",
+      "duration": 1570,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/clear_or_voice_button\"]\"",
+      "type": "TestStepPass",
+      "duration": 2309,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I enter \"dogs\" to \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]\"",
+      "type": "TestStepPass",
+      "duration": 3593,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I press Enter",
+      "type": "TestStepPass",
+      "duration": 875,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait for \"3\" seconds",
+      "type": "TestStepPass",
+      "duration": 3004,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

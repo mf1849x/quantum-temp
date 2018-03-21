@@ -1,0 +1,49 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@GSearch",
+          "@GSearch"
+        ],
+        "lineNo": 5.0,
+        "name": "Search on Google",
+        "Perfecto-report": "<a href=\"https://att.reporting.onsite.perfectomobile.com?externalId[0]=mf1840_RemoteWebDriver_18-02-27_16_26_17_2638&_timestamp[0]=1519777577411\" target=\"_blank\">view</a>",
+        "referece": "src/main/resources/scenarios/GoogleSearch.feature",
+        "sign": "src.main.resources.scenarios.GoogleSearch.feature.Search on Google()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1519777881668,
+      "duration": 11032,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@GSearch",
+          "@GSearch"
+        ],
+        "lineNo": 5,
+        "name": "Search on Google",
+        "Perfecto-report": "<a href=\"https://att.reporting.onsite.perfectomobile.com?externalId[0]=mf1840_RemoteWebDriver_18-02-27_16_26_51_2642&_timestamp[0]=1519777611255\" target=\"_blank\">view</a>",
+        "referece": "src/main/resources/scenarios/GoogleSearch.feature",
+        "resultFileName": "Search on GooglevyByrfuBLC",
+        "sign": "src.main.resources.scenarios.GoogleSearch.feature.Search on Google()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1519777915650,
+      "duration": 12781,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

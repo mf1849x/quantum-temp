@@ -1,0 +1,145 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "cucmber.startAppById",
+      "args": [
+        "[com.google.android.googlequicksearchbox]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "switchToContext",
+          "args": [
+            "{name=NATIVE_APP}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 10
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I click \"Say \\\"Ok Google\\\"\" if present",
+      "args": [
+        "[]"
+      ],
+      "result": "Error: Step Not Found",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I wait for \"10\" seconds",
+      "args": [
+        "[10]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I click on \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/say_ok_google\"]\"",
+      "args": [
+        "[//*[@resource-id=\"com.google.android.googlequicksearchbox:id/say_ok_google\"]]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I enter \"samsung galaxy phone or iphone\" to \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]\"",
+      "args": [
+        "[samsung galaxy phone or iphone, //*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I wait for \"10\" seconds",
+      "args": [
+        "[10]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I press the good ole back button",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I close application by id \"com.android.chrome\"",
+      "args": [
+        "[com.android.chrome]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I start application by id \"com.google.android.googlequicksearchbox\"",
+      "type": "TestStepPass",
+      "duration": 115,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click \"Say \\\"Ok Google\\\"\" if present :: Not Found.",
+      "type": "Warn",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait for \"10\" seconds",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/say_ok_google\"]\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I enter \"samsung galaxy phone or iphone\" to \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait for \"10\" seconds",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I press the good ole back button",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I close application by id \"com.android.chrome\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.qmetry.qaf.automation.step.StepNotFoundException: Then I click \"Say \\\"Ok Google\\\"\" if present@src/main/resources/scenarios/GoogleSearch.feature#8 TestStep implementation not found. \n Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.\r\n\tat .Then I click \"Say \\\"Ok Google\\\"\" if present(src/main/resources/scenarios/GoogleSearch.feature:8)\r\n"
+}

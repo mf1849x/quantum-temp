@@ -1,0 +1,172 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "cucmber.startAppById",
+      "args": [
+        "[com.google.android.googlequicksearchbox]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "switchToContext",
+          "args": [
+            "{name=NATIVE_APP}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 11
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickPresent",
+      "args": [
+        "[Say \\\"Ok Google\\\"]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='Say \\\"Ok Google\\\"' or @id='Say \\\"Ok Google\\\"' or @value='Say \\\"Ok Google\\\"'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 706
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.iClick",
+      "args": [
+        "[//*[@resource-id=\"com.google.android.googlequicksearchbox:id/say_ok_google\"]]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"com.google.android.googlequicksearchbox:id/say_ok_google\"], using=xpath}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 2680
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.google.android.googlequicksearchbox:id/say_ok_google\"]",
+            "{\"id\":\"0\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 557
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.iSet",
+      "args": [
+        "[samsung galaxy phone or iphone, //*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 2044
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]",
+            "{\"id\":\"1\",\"value\":[\"samsung galaxy phone or iphone\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 1783
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.waitFor",
+      "args": [
+        "[10]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "findMeText",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I start application by id \"com.google.android.googlequicksearchbox\"",
+      "type": "TestStepPass",
+      "duration": 84,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click \"Say \\\"Ok Google\\\"\" if present",
+      "type": "TestStepPass",
+      "duration": 723,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/say_ok_google\"]\"",
+      "type": "TestStepPass",
+      "duration": 3244,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I enter \"samsung galaxy phone or iphone\" to \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]\"",
+      "type": "TestStepPass",
+      "duration": 3829,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait for \"10\" seconds",
+      "type": "TestStepPass",
+      "duration": 10004,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then Find me this text",
+      "type": "TestStepFail",
+      "screenshot": "img/Search on Google_1e8vjgbkzhcur25662.png",
+      "duration": 34,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Failed to execute command checkpoint text: Parameter 'imageBounds.needleBound' not defined for function checkpoint text\nCommand duration or timeout: 23 milliseconds\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'DESKTOP-2S6K0V0', ip: '192.168.17.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{reportPdfUrl=https://att.reporting.onsite.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=mf1840_RemoteWebDriver_18-03-08_16_25_52_5229&_timestamp[0]=1520555152537, eclipseExecutionId=mf1840_Intellij_18-03-07_16_06_40_4951, available=false, language=English, deviceName=A5337362, deviceId=A5337362, resolution=1440x2560, platform=ANY, wifiMacAddress=60:f1:89:10:3f:75, manufacturer=Samsung, mode=CONNECTED, password=, cradleId=ATT-HSS5/VIRTUAL/01, deviceSessionId=8B04AB96E832B0449D7CED82A4D1842D, osVersion=7.0, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=att.onsite.perfectomobile.com, singleTestReportUrl=https://att.onsite.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/180308/RemoteWebDriver_18-03-08_16_25_52_5229.xml&ownerId=mf1840&sharingCode=6f2f75e9-3454-4b73-9daa-9cb2a61dcfb2, inUse=true, takesScreenshot=true, browserName=MobileOS, javascriptEnabled=true, model=Galaxy S7 Edge, platformName=Android, firmware=hero2qlteuc-user 7.0 NRD90M G935AUCU4BQK2 release-keys, applicationName=Calculator, rotatable=true, testGridReportUrl=https://att.reporting.onsite.perfectomobile.com?externalId[0]=mf1840_RemoteWebDriver_18-03-08_16_25_52_5229&_timestamp[0]=1520555152537, os=Android, entityType=remote_web_driver, allocatedTo=mf1840, serverConnector=, securityToken=, executionId=mf1840_RemoteWebDriver_18-03-08_16_25_52_5229, phoneNumber=+1 425 273 2438, webdriver.remote.sessionid=7d60e26a-0745-4750-83e2-7443b1fe0c79, locationContextEnabled=true, scriptName=RemoteWebDriver, location=Seattle, linkType=lab, reportKey=PRIVATE:RemoteWebDriver/180308/RemoteWebDriver_18-03-08_16_25_52_5229.xml, windTunnelReportUrl=https://att.onsite.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/180308/RemoteWebDriver_18-03-08_16_25_52_5229.xml&ownerId=mf1840&sharingCode=6f2f75e9-3454-4b73-9daa-9cb2a61dcfb2, user=, operabilityRatingScore=100, cssSelectorsEnabled=true, status=Connected}]\nSession ID: 7d60e26a-0745-4750-83e2-7443b1fe0c79",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.WebDriverException: Failed to execute command checkpoint text: Parameter 'imageBounds.needleBound' not defined for function checkpoint text\nCommand duration or timeout: 23 milliseconds\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'DESKTOP-2S6K0V0', ip: '192.168.17.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{reportPdfUrl=https://att.reporting.onsite.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=mf1840_RemoteWebDriver_18-03-08_16_25_52_5229&_timestamp[0]=1520555152537, eclipseExecutionId=mf1840_Intellij_18-03-07_16_06_40_4951, available=false, language=English, deviceName=A5337362, deviceId=A5337362, resolution=1440x2560, platform=ANY, wifiMacAddress=60:f1:89:10:3f:75, manufacturer=Samsung, mode=CONNECTED, password=, cradleId=ATT-HSS5/VIRTUAL/01, deviceSessionId=8B04AB96E832B0449D7CED82A4D1842D, osVersion=7.0, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=att.onsite.perfectomobile.com, singleTestReportUrl=https://att.onsite.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/180308/RemoteWebDriver_18-03-08_16_25_52_5229.xml&ownerId=mf1840&sharingCode=6f2f75e9-3454-4b73-9daa-9cb2a61dcfb2, inUse=true, takesScreenshot=true, browserName=MobileOS, javascriptEnabled=true, model=Galaxy S7 Edge, platformName=Android, firmware=hero2qlteuc-user 7.0 NRD90M G935AUCU4BQK2 release-keys, applicationName=Calculator, rotatable=true, testGridReportUrl=https://att.reporting.onsite.perfectomobile.com?externalId[0]=mf1840_RemoteWebDriver_18-03-08_16_25_52_5229&_timestamp[0]=1520555152537, os=Android, entityType=remote_web_driver, allocatedTo=mf1840, serverConnector=, securityToken=, executionId=mf1840_RemoteWebDriver_18-03-08_16_25_52_5229, phoneNumber=+1 425 273 2438, webdriver.remote.sessionid=7d60e26a-0745-4750-83e2-7443b1fe0c79, locationContextEnabled=true, scriptName=RemoteWebDriver, location=Seattle, linkType=lab, reportKey=PRIVATE:RemoteWebDriver/180308/RemoteWebDriver_18-03-08_16_25_52_5229.xml, windTunnelReportUrl=https://att.onsite.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/180308/RemoteWebDriver_18-03-08_16_25_52_5229.xml&ownerId=mf1840&sharingCode=6f2f75e9-3454-4b73-9daa-9cb2a61dcfb2, user=, operabilityRatingScore=100, cssSelectorsEnabled=true, status=Connected}]\nSession ID: 7d60e26a-0745-4750-83e2-7443b1fe0c79\r\n\tat .Then Find me this text(src/main/resources/scenarios/GoogleSearch.feature:13)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:234)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeScript(QAFExtendedWebDriver.java:529)\r\n\tat com.quantum.steps.MikeSteps.findMeText(MikeSteps.java:51)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\nCaused by: java.lang.RuntimeException: Failed to execute command checkpoint text: Parameter 'imageBounds.needleBound' not defined for function checkpoint text\r\n\tat com.perfectomobile.selenium.MobileEntity.processCommonResponse(MobileEntity.java:102)\r\n\tat com.perfectomobile.selenium.MobileDevice.processResponse(MobileDevice.java:530)\r\n\tat com.perfectomobile.selenium.MobileEntity.executeDataCommand(MobileEntity.java:68)\r\n\tat com.perfectomobile.selenium.MobileEntity.executeDataCommand(MobileEntity.java:61)\r\n\tat com.perfectomobile.selenium.MobileDevice.executeGenericCommand(MobileDevice.java:611)\r\n\tat com.perfectomobile.selenium.MobileDevice.executeGenericCommand(MobileDevice.java:55)\r\n\tat com.perfectomobile.selenium.server.appium.ExecuteScript.executeGenericCommand(ExecuteScript.java:120)\r\n\tat com.perfectomobile.selenium.server.appium.ExecuteScript.executeGenericCommand(ExecuteScript.java:79)\r\n\tat com.perfectomobile.selenium.server.appium.ExecuteScript.mobileCall(ExecuteScript.java:48)\r\n\tat com.perfectomobile.selenium.server.MobileWebDriverHandler.call(MobileWebDriverHandler.java:23)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat org.openqa.selenium.remote.server.MobileDefaultSession.lambda$execute$0(MobileDefaultSession.java:199)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\r\n\tat java.lang.Thread.run(Thread.java:745)\r\n"
+}

@@ -1,0 +1,197 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "cucmber.startAppById",
+      "args": [
+        "[com.google.android.googlequicksearchbox]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "switchToContext",
+          "args": [
+            "{name=NATIVE_APP}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 13
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickPresent",
+      "args": [
+        "[Say]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@name='Say' or @id='Say' or @value='Say'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 504
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickPresent",
+      "args": [
+        "[//*[@resource-id=\"com.google.android.googlequicksearchbox:id/say_ok_google\"]]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@resource-id=\"com.google.android.googlequicksearchbox:id/say_ok_google\"], using=xpath}"
+          ],
+          "result": "[id: 0]",
+          "subLogs": [],
+          "duration": 2616
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"com.google.android.googlequicksearchbox:id/say_ok_google\"], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 402
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.google.android.googlequicksearchbox:id/say_ok_google\"]",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 582
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.iSet",
+      "args": [
+        "[baseball, //*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 2201
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]",
+            "{\"id\":\"2\",\"value\":[\"baseball\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 1829
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.waitFor",
+      "args": [
+        "[10]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.closeAppById",
+      "args": [
+        "[com.android.chrome]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.closeAppById",
+      "args": [
+        "[\"com.google.android.googlequicksearchbox]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I start application by id \"com.google.android.googlequicksearchbox\"",
+      "type": "TestStepPass",
+      "duration": 156,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click \"Say\" if present",
+      "type": "TestStepPass",
+      "duration": 526,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/say_ok_google\"]\" if present",
+      "type": "TestStepPass",
+      "duration": 3617,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I enter \"baseball\" to \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]\"",
+      "type": "TestStepPass",
+      "duration": 4040,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait for \"10\" seconds",
+      "type": "TestStepPass",
+      "duration": 10006,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I close application by id \"com.android.chrome\"",
+      "type": "TestStepPass",
+      "duration": 1357,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I close application by id \"\"com.google.android.googlequicksearchbox\"",
+      "type": "TestStepFail",
+      "screenshot": "img/Search on Google_1odzcnuxv6v9930130.png",
+      "duration": 236,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Failed to execute command application close: application-close command failed. Reason: handset server: cannot execute command. Cannot find identifier.\nCommand duration or timeout: 217 milliseconds\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'DESKTOP-2S6K0V0', ip: '192.168.17.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{reportPdfUrl=https://att.reporting.onsite.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=mf1840_RemoteWebDriver_18-02-27_16_44_52_2680&_timestamp[0]=1519778692140, eclipseExecutionId=mf1840_Intellij_18-02-27_14_51_53_2518, available=false, language=English, deviceName=A5337362, deviceId=A5337362, resolution=1440x2560, platform=ANY, wifiMacAddress=60:f1:89:10:3f:75, manufacturer=Samsung, mode=CONNECTED, password=, cradleId=ATT-HSS5/VIRTUAL/01, deviceSessionId=5A7EA7FD1DC224C48775871122130E19, osVersion=7.0, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=att.onsite.perfectomobile.com, singleTestReportUrl=https://att.onsite.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/180227/RemoteWebDriver_18-02-27_16_44_52_2680.xml&ownerId=mf1840&sharingCode=932e20d3-1fc7-48ce-9fb5-d36d011f3762, inUse=true, takesScreenshot=true, browserName=MobileOS, javascriptEnabled=true, model=Galaxy S7 Edge, platformName=Android, firmware=hero2qlteuc-user 7.0 NRD90M G935AUCU4BQK2 release-keys, applicationName=Calculator, rotatable=true, testGridReportUrl=https://att.reporting.onsite.perfectomobile.com?externalId[0]=mf1840_RemoteWebDriver_18-02-27_16_44_52_2680&_timestamp[0]=1519778692140, os=Android, entityType=remote_web_driver, allocatedTo=mf1840, serverConnector=, securityToken=, executionId=mf1840_RemoteWebDriver_18-02-27_16_44_52_2680, phoneNumber=+1 425 215 3571, webdriver.remote.sessionid=45673a05-0821-485f-ab88-62d545618d13, locationContextEnabled=true, scriptName=RemoteWebDriver, location=Seattle, linkType=lab, reportKey=PRIVATE:RemoteWebDriver/180227/RemoteWebDriver_18-02-27_16_44_52_2680.xml, windTunnelReportUrl=https://att.onsite.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/180227/RemoteWebDriver_18-02-27_16_44_52_2680.xml&ownerId=mf1840&sharingCode=932e20d3-1fc7-48ce-9fb5-d36d011f3762, user=, operabilityRatingScore=100, cssSelectorsEnabled=true, status=Connected}]\nSession ID: 45673a05-0821-485f-ab88-62d545618d13",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.WebDriverException: Failed to execute command application close: application-close command failed. Reason: handset server: cannot execute command. Cannot find identifier.\nCommand duration or timeout: 217 milliseconds\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'DESKTOP-2S6K0V0', ip: '192.168.17.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{reportPdfUrl=https://att.reporting.onsite.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=mf1840_RemoteWebDriver_18-02-27_16_44_52_2680&_timestamp[0]=1519778692140, eclipseExecutionId=mf1840_Intellij_18-02-27_14_51_53_2518, available=false, language=English, deviceName=A5337362, deviceId=A5337362, resolution=1440x2560, platform=ANY, wifiMacAddress=60:f1:89:10:3f:75, manufacturer=Samsung, mode=CONNECTED, password=, cradleId=ATT-HSS5/VIRTUAL/01, deviceSessionId=5A7EA7FD1DC224C48775871122130E19, osVersion=7.0, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=att.onsite.perfectomobile.com, singleTestReportUrl=https://att.onsite.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/180227/RemoteWebDriver_18-02-27_16_44_52_2680.xml&ownerId=mf1840&sharingCode=932e20d3-1fc7-48ce-9fb5-d36d011f3762, inUse=true, takesScreenshot=true, browserName=MobileOS, javascriptEnabled=true, model=Galaxy S7 Edge, platformName=Android, firmware=hero2qlteuc-user 7.0 NRD90M G935AUCU4BQK2 release-keys, applicationName=Calculator, rotatable=true, testGridReportUrl=https://att.reporting.onsite.perfectomobile.com?externalId[0]=mf1840_RemoteWebDriver_18-02-27_16_44_52_2680&_timestamp[0]=1519778692140, os=Android, entityType=remote_web_driver, allocatedTo=mf1840, serverConnector=, securityToken=, executionId=mf1840_RemoteWebDriver_18-02-27_16_44_52_2680, phoneNumber=+1 425 215 3571, webdriver.remote.sessionid=45673a05-0821-485f-ab88-62d545618d13, locationContextEnabled=true, scriptName=RemoteWebDriver, location=Seattle, linkType=lab, reportKey=PRIVATE:RemoteWebDriver/180227/RemoteWebDriver_18-02-27_16_44_52_2680.xml, windTunnelReportUrl=https://att.onsite.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/180227/RemoteWebDriver_18-02-27_16_44_52_2680.xml&ownerId=mf1840&sharingCode=932e20d3-1fc7-48ce-9fb5-d36d011f3762, user=, operabilityRatingScore=100, cssSelectorsEnabled=true, status=Connected}]\nSession ID: 45673a05-0821-485f-ab88-62d545618d13\r\n\tat .Then I close application by id \"\"com.google.android.googlequicksearchbox\"(src/main/resources/scenarios/GoogleSearch.feature:13)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:234)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeScript(QAFExtendedWebDriver.java:529)\r\n\tat com.quantum.utils.DeviceUtils.closeApp(DeviceUtils.java:86)\r\n\tat com.quantum.utils.DeviceUtils.closeApp(DeviceUtils.java:80)\r\n\tat com.quantum.steps.PerfectoApplicationSteps.closeAppById(PerfectoApplicationSteps.java:105)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\nCaused by: java.lang.RuntimeException: Failed to execute command application close: application-close command failed. Reason: handset server: cannot execute command. Cannot find identifier.\r\n\tat com.perfectomobile.selenium.MobileEntity.processCommonResponse(MobileEntity.java:102)\r\n\tat com.perfectomobile.selenium.MobileDevice.processResponse(MobileDevice.java:530)\r\n\tat com.perfectomobile.selenium.MobileEntity.executeDataCommand(MobileEntity.java:68)\r\n\tat com.perfectomobile.selenium.MobileEntity.executeDataCommand(MobileEntity.java:61)\r\n\tat com.perfectomobile.selenium.MobileDevice.executeGenericCommand(MobileDevice.java:611)\r\n\tat com.perfectomobile.selenium.MobileDevice.executeGenericCommand(MobileDevice.java:55)\r\n\tat com.perfectomobile.selenium.server.appium.ExecuteScript.executeGenericCommand(ExecuteScript.java:120)\r\n\tat com.perfectomobile.selenium.server.appium.ExecuteScript.executeGenericCommand(ExecuteScript.java:79)\r\n\tat com.perfectomobile.selenium.server.appium.ExecuteScript.mobileCall(ExecuteScript.java:48)\r\n\tat com.perfectomobile.selenium.server.MobileWebDriverHandler.call(MobileWebDriverHandler.java:23)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat org.openqa.selenium.remote.server.MobileDefaultSession.lambda$execute$0(MobileDefaultSession.java:199)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\r\n\tat java.lang.Thread.run(Thread.java:745)\r\n"
+}

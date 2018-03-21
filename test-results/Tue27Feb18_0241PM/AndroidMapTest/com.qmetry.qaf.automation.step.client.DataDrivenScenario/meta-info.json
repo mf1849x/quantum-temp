@@ -1,0 +1,63 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "searchResult": "Starbucks",
+          "searchKey": "S",
+          "recId": "1"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@Test6",
+          "@Test6"
+        ],
+        "JSON_DATA_TABLE": "[{\"searchResult\":\"Starbucks\",\"searchKey\":\"S\",\"recId\":\"1\"},{\"searchResult\":\"McDonald\\u0027s\",\"searchKey\":\"M\",\"recId\":\"2\"}]",
+        "lineNo": 6.0,
+        "name": "",
+        "Perfecto-report": "<a href=\"https://att.reporting.onsite.perfectomobile.com?externalId[0]=mf1840_RemoteWebDriver_18-02-27_14_35_56_2513&_timestamp[0]=1519770956737\" target=\"_blank\">view</a>",
+        "referece": "src/main/resources/scenarios/test6.feature",
+        "sign": "src.main.resources.scenarios.test6.feature.( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1519771261566,
+      "duration": 34895,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "searchResult": "McDonaldu0027s",
+          "searchKey": "M",
+          "recId": "2"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@Test6",
+          "@Test6"
+        ],
+        "JSON_DATA_TABLE": "[{\"searchResult\":\"Starbucks\",\"searchKey\":\"S\",\"recId\":\"1\"},{\"searchResult\":\"McDonald\\u0027s\",\"searchKey\":\"M\",\"recId\":\"2\"}]",
+        "lineNo": 6,
+        "name": "",
+        "Perfecto-report": "<a href=\"https://att.reporting.onsite.perfectomobile.com?externalId[0]=mf1840_RemoteWebDriver_18-02-27_14_35_56_2513&_timestamp[0]=1519770956737\" target=\"_blank\">view</a>",
+        "referece": "src/main/resources/scenarios/test6.feature",
+        "resultFileName": "mxZUnbAWaC",
+        "sign": "src.main.resources.scenarios.test6.feature.( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1519771296526,
+      "duration": 20916,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

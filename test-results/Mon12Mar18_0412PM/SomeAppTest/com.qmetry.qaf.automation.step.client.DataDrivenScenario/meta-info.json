@@ -1,0 +1,90 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "searchWord": "skateboards",
+          "recId": "1"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@GSearch",
+          "@GSearch"
+        ],
+        "JSON_DATA_TABLE": "[{\"searchWord\":\"skateboards\",\"recId\":\"1\"},{\"searchWord\":\"vitamins\",\"recId\":\"2\"},{\"searchWord\":\"bikes\",\"recId\":\"3\"},{\"searchWord\":\"cat food\",\"recId\":\"4\"},{\"searchWord\":\"basketballs\",\"recId\":\"5\"},{\"searchWord\":\"chewing gum\",\"recId\":\"6\"},{\"searchWord\":\"shoes\",\"recId\":\"7\"},{\"searchWord\":\"hats\",\"recId\":\"8\"},{\"searchWord\":\"jewelry\",\"recId\":\"9\"},{\"searchWord\":\"hiking backpacks\",\"recId\":\"10\"}]",
+        "lineNo": 5.0,
+        "name": "Search on Google",
+        "Perfecto-report": "<a href=\"https://att.reporting.onsite.perfectomobile.com?externalId[0]=mf1840_RemoteWebDriver_18-03-12_16_07_32_363&_timestamp[0]=1520896052188\" target=\"_blank\">view</a>",
+        "referece": "src/main/resources/scenarios/GoogleSearch.feature",
+        "sign": "src.main.resources.scenarios.GoogleSearch.feature.Search on Google( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1520896362259,
+      "duration": 48070,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "searchWord": "vitamins",
+          "recId": "2"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@GSearch",
+          "@GSearch"
+        ],
+        "JSON_DATA_TABLE": "[{\"searchWord\":\"skateboards\",\"recId\":\"1\"},{\"searchWord\":\"vitamins\",\"recId\":\"2\"},{\"searchWord\":\"bikes\",\"recId\":\"3\"},{\"searchWord\":\"cat food\",\"recId\":\"4\"},{\"searchWord\":\"basketballs\",\"recId\":\"5\"},{\"searchWord\":\"chewing gum\",\"recId\":\"6\"},{\"searchWord\":\"shoes\",\"recId\":\"7\"},{\"searchWord\":\"hats\",\"recId\":\"8\"},{\"searchWord\":\"jewelry\",\"recId\":\"9\"},{\"searchWord\":\"hiking backpacks\",\"recId\":\"10\"}]",
+        "lineNo": 5.0,
+        "name": "Search on Google",
+        "Perfecto-report": "<a href=\"https://att.reporting.onsite.perfectomobile.com?externalId[0]=mf1840_RemoteWebDriver_18-03-12_16_07_32_363&_timestamp[0]=1520896052188\" target=\"_blank\">view</a>",
+        "referece": "src/main/resources/scenarios/GoogleSearch.feature",
+        "resultFileName": "Search on GooglelqOyhBXiWI",
+        "sign": "src.main.resources.scenarios.GoogleSearch.feature.Search on Google( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1520896410391,
+      "duration": 36677,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 3,
+      "type": "test",
+      "args": [
+        {
+          "searchWord": "bikes",
+          "recId": "3"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@GSearch",
+          "@GSearch"
+        ],
+        "JSON_DATA_TABLE": "[{\"searchWord\":\"skateboards\",\"recId\":\"1\"},{\"searchWord\":\"vitamins\",\"recId\":\"2\"},{\"searchWord\":\"bikes\",\"recId\":\"3\"},{\"searchWord\":\"cat food\",\"recId\":\"4\"},{\"searchWord\":\"basketballs\",\"recId\":\"5\"},{\"searchWord\":\"chewing gum\",\"recId\":\"6\"},{\"searchWord\":\"shoes\",\"recId\":\"7\"},{\"searchWord\":\"hats\",\"recId\":\"8\"},{\"searchWord\":\"jewelry\",\"recId\":\"9\"},{\"searchWord\":\"hiking backpacks\",\"recId\":\"10\"}]",
+        "lineNo": 5,
+        "name": "Search on Google",
+        "Perfecto-report": "<a href=\"https://att.reporting.onsite.perfectomobile.com?externalId[0]=mf1840_RemoteWebDriver_18-03-12_16_07_32_363&_timestamp[0]=1520896052188\" target=\"_blank\">view</a>",
+        "referece": "src/main/resources/scenarios/GoogleSearch.feature",
+        "resultFileName": "Search on GooglePEfHNQYzgP",
+        "sign": "src.main.resources.scenarios.GoogleSearch.feature.Search on Google( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1520896448914,
+      "duration": 36298,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

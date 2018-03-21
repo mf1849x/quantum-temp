@@ -1,0 +1,110 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launchMaps",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "switchToContext",
+          "args": [
+            "{name=NATIVE_APP}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 10
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.iClick",
+      "args": [
+        "[search_here.edit]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@text=\"Search here\"], using=xpath}"
+          ],
+          "result": "id: 0",
+          "subLogs": [],
+          "duration": 5984
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@text=\"Search here\"]",
+            "{\"id\":\"0\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 580
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "I_click_map_search_field",
+      "args": [
+        "[S]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "cucmber.verifyVisualText",
+      "args": [
+        "[Starbucks]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I restart Google Maps",
+      "type": "TestStepPass",
+      "duration": 1920,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"search_here.edit\"",
+      "type": "TestStepPass",
+      "duration": 6596,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I want to search map on \"S\"",
+      "type": "TestStepPass",
+      "duration": 988,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I should see text \"Starbucks\"",
+      "type": "TestStepFail",
+      "screenshot": "img/_1pjkcfgn50k0o18169.png",
+      "duration": 9609,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Text: \"Starbucks\" should be present\nExpected: \"true\"\n     Actual: was \"false\"",
+          "type": "Fail",
+          "screenshot": "img/_1pjkcfgn50k0o18169.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

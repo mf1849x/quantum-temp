@@ -1,0 +1,48 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@WebSearch",
+          "@Web"
+        ],
+        "lineNo": 5.0,
+        "name": "Search Quantum",
+        "Perfecto-report": "<a href=\"https://att.reporting.onsite.perfectomobile.com?externalId[0]=mf1840_RemoteWebDriver_18-02-27_14_12_13_2497&_timestamp[0]=1519769533228\" target=\"_blank\">view</a>",
+        "referece": "src/main/resources/scenarios/webSearch.feature",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Quantum()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1519769838128,
+      "duration": 42379,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@WebResultsList",
+          "@Web"
+        ],
+        "lineNo": 12,
+        "name": "Search Quantum with results",
+        "Perfecto-report": "<a href=\"https://att.reporting.onsite.perfectomobile.com?externalId[0]=mf1840_RemoteWebDriver_18-02-27_14_12_13_2497&_timestamp[0]=1519769533228\" target=\"_blank\">view</a>",
+        "referece": "src/main/resources/scenarios/webSearch.feature",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Quantum with results()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]"
+      },
+      "dependsOn": [],
+      "startTime": 1519769882849,
+      "duration": 24282,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@GSearch",
+          "@GSearch"
+        ],
+        "lineNo": 5,
+        "name": "Search on Google",
+        "Perfecto-report": "<a href=\"https://att.reporting.onsite.perfectomobile.com?externalId[0]=mf1840_RemoteWebDriver_18-03-08_15_19_52_5169&_timestamp[0]=1520551192663\" target=\"_blank\">view</a>",
+        "referece": "src/main/resources/scenarios/GoogleSearch.feature",
+        "sign": "src.main.resources.scenarios.GoogleSearch.feature.Search on Google()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1520551500726,
+      "duration": 9399,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

@@ -1,0 +1,800 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "pressAppSwitch",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I wait for \"3\" seconds",
+      "args": [
+        "[3]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I click on \"//*[@resource-id=\"com.android.systemui:id/recents_close_all_button\"]\"",
+      "args": [
+        "[//*[@resource-id=\"com.android.systemui:id/recents_close_all_button\"]]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I wait for \"10\" seconds",
+      "args": [
+        "[10]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Given I go to the device home screen",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I try to close application by id \"com.google.android.googlequicksearchbox\"",
+      "args": [
+        "[com.google.android.googlequicksearchbox]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I start application by id \"com.google.android.googlequicksearchbox\"",
+      "args": [
+        "[com.google.android.googlequicksearchbox]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I click \"Say \\\"Ok Google\\\"\" if present",
+      "args": [
+        "[Say \\\"Ok Google\\\"]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I click on \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/say_ok_google\"]\"",
+      "args": [
+        "[//*[@resource-id=\"com.google.android.googlequicksearchbox:id/say_ok_google\"]]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I enter \"Amazon\" to \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]\"",
+      "args": [
+        "[Amazon, //*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I press Enter",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I wait for \"3\" seconds",
+      "args": [
+        "[3]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then Find me this string \"books\"",
+      "args": [
+        "[books]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I wait for \"3\" seconds",
+      "args": [
+        "[3]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I click on \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]\"",
+      "args": [
+        "[//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I click on \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/clear_or_voice_button\"]\"",
+      "args": [
+        "[//*[@resource-id=\"com.google.android.googlequicksearchbox:id/clear_or_voice_button\"]]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I enter \"dogs\" to \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]\"",
+      "args": [
+        "[dogs, //*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I press Enter",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I wait for \"3\" seconds",
+      "args": [
+        "[3]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then Find me this string \"Dog\"",
+      "args": [
+        "[Dog]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I wait for \"3\" seconds",
+      "args": [
+        "[3]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I click on \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]\"",
+      "args": [
+        "[//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I click on \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/clear_or_voice_button\"]\"",
+      "args": [
+        "[//*[@resource-id=\"com.google.android.googlequicksearchbox:id/clear_or_voice_button\"]]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I enter \"cats\" to \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]\"",
+      "args": [
+        "[cats, //*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I press Enter",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I wait for \"3\" seconds",
+      "args": [
+        "[3]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then Find me this string \"Cat\"",
+      "args": [
+        "[Cat]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I wait for \"3\" seconds",
+      "args": [
+        "[3]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I click on \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]\"",
+      "args": [
+        "[//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I click on \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/clear_or_voice_button\"]\"",
+      "args": [
+        "[//*[@resource-id=\"com.google.android.googlequicksearchbox:id/clear_or_voice_button\"]]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I enter \"bats\" to \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]\"",
+      "args": [
+        "[bats, //*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I press Enter",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I wait for \"3\" seconds",
+      "args": [
+        "[3]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then Find me this string \"Bat\"",
+      "args": [
+        "[Bat]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I wait for \"3\" seconds",
+      "args": [
+        "[3]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I click on \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]\"",
+      "args": [
+        "[//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I click on \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/clear_or_voice_button\"]\"",
+      "args": [
+        "[//*[@resource-id=\"com.google.android.googlequicksearchbox:id/clear_or_voice_button\"]]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I enter \"cars\" to \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]\"",
+      "args": [
+        "[cars, //*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I press Enter",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I wait for \"3\" seconds",
+      "args": [
+        "[3]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then Find me this string \"Car\"",
+      "args": [
+        "[Car]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I wait for \"3\" seconds",
+      "args": [
+        "[3]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I click on \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]\"",
+      "args": [
+        "[//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I click on \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/clear_or_voice_button\"]\"",
+      "args": [
+        "[//*[@resource-id=\"com.google.android.googlequicksearchbox:id/clear_or_voice_button\"]]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I enter \"bitcoin\" to \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]\"",
+      "args": [
+        "[bitcoin, //*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then I press Enter",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I wait for \"3\" seconds",
+      "args": [
+        "[3]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then Find me this string \"Bitcoin\"",
+      "args": [
+        "[Bitcoin]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I wait for \"3\" seconds",
+      "args": [
+        "[3]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Then I press App Switch",
+      "type": "TestStepFail",
+      "screenshot": "img/Search on Google_vx4rx53q6pbn4762.png",
+      "duration": 47,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Failed to execute command presskey: pressKey command failed. Reason: handset server: server is busy processing a queued request [/screen-capture]\nCommand duration or timeout: 47 milliseconds\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'DESKTOP-2S6K0V0', ip: '192.168.17.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{reportPdfUrl=https://att.reporting.onsite.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=mf1840_RemoteWebDriver_18-03-12_15_13_36_285&_timestamp[0]=1520892816637, eclipseExecutionId=mf1840_Intellij_18-03-12_13_43_51_189, available=false, language=English, deviceName=A5337362, deviceId=A5337362, resolution=1440x2560, platform=ANY, wifiMacAddress=60:f1:89:10:3f:75, manufacturer=Samsung, mode=CONNECTED, password=, cradleId=ATT-HSS5/VIRTUAL/01, deviceSessionId=01A784DA389A3978A8E17585F5463158, osVersion=7.0, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=att.onsite.perfectomobile.com, singleTestReportUrl=https://att.onsite.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/180312/RemoteWebDriver_18-03-12_15_13_36_285.xml&ownerId=mf1840&sharingCode=0b3d913c-07ee-40ff-b615-2cda7a0b431e, inUse=true, takesScreenshot=true, browserName=MobileOS, javascriptEnabled=true, model=Galaxy S7 Edge, platformName=Android, firmware=hero2qlteuc-user 7.0 NRD90M G935AUCU4BQK2 release-keys, applicationName=Calculator, rotatable=true, testGridReportUrl=https://att.reporting.onsite.perfectomobile.com?externalId[0]=mf1840_RemoteWebDriver_18-03-12_15_13_36_285&_timestamp[0]=1520892816637, os=Android, entityType=remote_web_driver, allocatedTo=mf1840, serverConnector=, securityToken=, executionId=mf1840_RemoteWebDriver_18-03-12_15_13_36_285, phoneNumber=+1 425 273 2438, webdriver.remote.sessionid=ab49259d-9722-4619-b0b4-d8204adcd50a, locationContextEnabled=true, scriptName=RemoteWebDriver, location=Seattle, linkType=lab, reportKey=PRIVATE:RemoteWebDriver/180312/RemoteWebDriver_18-03-12_15_13_36_285.xml, windTunnelReportUrl=https://att.onsite.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/180312/RemoteWebDriver_18-03-12_15_13_36_285.xml&ownerId=mf1840&sharingCode=0b3d913c-07ee-40ff-b615-2cda7a0b431e, user=, operabilityRatingScore=100, cssSelectorsEnabled=true, status=Connected}]\nSession ID: ab49259d-9722-4619-b0b4-d8204adcd50a",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And I wait for \"3\" seconds",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"//*[@resource-id=\"com.android.systemui:id/recents_close_all_button\"]\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait for \"10\" seconds",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Given I go to the device home screen",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I try to close application by id \"com.google.android.googlequicksearchbox\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I start application by id \"com.google.android.googlequicksearchbox\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click \"Say \\\"Ok Google\\\"\" if present",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/say_ok_google\"]\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I enter \"Amazon\" to \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I press Enter",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait for \"3\" seconds",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then Find me this string \"books\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait for \"3\" seconds",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/clear_or_voice_button\"]\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I enter \"dogs\" to \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I press Enter",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait for \"3\" seconds",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then Find me this string \"Dog\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait for \"3\" seconds",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/clear_or_voice_button\"]\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I enter \"cats\" to \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I press Enter",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait for \"3\" seconds",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then Find me this string \"Cat\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait for \"3\" seconds",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/clear_or_voice_button\"]\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I enter \"bats\" to \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I press Enter",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait for \"3\" seconds",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then Find me this string \"Bat\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait for \"3\" seconds",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/clear_or_voice_button\"]\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I enter \"cars\" to \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I press Enter",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait for \"3\" seconds",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then Find me this string \"Car\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait for \"3\" seconds",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I click on \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/clear_or_voice_button\"]\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I enter \"bitcoin\" to \"//*[@resource-id=\"com.google.android.googlequicksearchbox:id/search_box\"]\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then I press Enter",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait for \"3\" seconds",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then Find me this string \"Bitcoin\"",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I wait for \"3\" seconds",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.WebDriverException: Failed to execute command presskey: pressKey command failed. Reason: handset server: server is busy processing a queued request [/screen-capture]\nCommand duration or timeout: 47 milliseconds\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'DESKTOP-2S6K0V0', ip: '192.168.17.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{reportPdfUrl=https://att.reporting.onsite.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=mf1840_RemoteWebDriver_18-03-12_15_13_36_285&_timestamp[0]=1520892816637, eclipseExecutionId=mf1840_Intellij_18-03-12_13_43_51_189, available=false, language=English, deviceName=A5337362, deviceId=A5337362, resolution=1440x2560, platform=ANY, wifiMacAddress=60:f1:89:10:3f:75, manufacturer=Samsung, mode=CONNECTED, password=, cradleId=ATT-HSS5/VIRTUAL/01, deviceSessionId=01A784DA389A3978A8E17585F5463158, osVersion=7.0, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=att.onsite.perfectomobile.com, singleTestReportUrl=https://att.onsite.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/180312/RemoteWebDriver_18-03-12_15_13_36_285.xml&ownerId=mf1840&sharingCode=0b3d913c-07ee-40ff-b615-2cda7a0b431e, inUse=true, takesScreenshot=true, browserName=MobileOS, javascriptEnabled=true, model=Galaxy S7 Edge, platformName=Android, firmware=hero2qlteuc-user 7.0 NRD90M G935AUCU4BQK2 release-keys, applicationName=Calculator, rotatable=true, testGridReportUrl=https://att.reporting.onsite.perfectomobile.com?externalId[0]=mf1840_RemoteWebDriver_18-03-12_15_13_36_285&_timestamp[0]=1520892816637, os=Android, entityType=remote_web_driver, allocatedTo=mf1840, serverConnector=, securityToken=, executionId=mf1840_RemoteWebDriver_18-03-12_15_13_36_285, phoneNumber=+1 425 273 2438, webdriver.remote.sessionid=ab49259d-9722-4619-b0b4-d8204adcd50a, locationContextEnabled=true, scriptName=RemoteWebDriver, location=Seattle, linkType=lab, reportKey=PRIVATE:RemoteWebDriver/180312/RemoteWebDriver_18-03-12_15_13_36_285.xml, windTunnelReportUrl=https://att.onsite.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/180312/RemoteWebDriver_18-03-12_15_13_36_285.xml&ownerId=mf1840&sharingCode=0b3d913c-07ee-40ff-b615-2cda7a0b431e, user=, operabilityRatingScore=100, cssSelectorsEnabled=true, status=Connected}]\nSession ID: ab49259d-9722-4619-b0b4-d8204adcd50a\r\n\tat .Then I press App Switch(src/main/resources/scenarios/GoogleSearch.feature:7)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:234)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeScript(QAFExtendedWebDriver.java:529)\r\n\tat com.quantum.steps.MikeSteps.pressAppSwitch(MikeSteps.java:49)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\nCaused by: java.lang.RuntimeException: Failed to execute command presskey: pressKey command failed. Reason: handset server: server is busy processing a queued request [/screen-capture]\r\n\tat com.perfectomobile.selenium.MobileEntity.processCommonResponse(MobileEntity.java:102)\r\n\tat com.perfectomobile.selenium.MobileDevice.processResponse(MobileDevice.java:530)\r\n\tat com.perfectomobile.selenium.MobileEntity.executeDataCommand(MobileEntity.java:68)\r\n\tat com.perfectomobile.selenium.MobileEntity.executeDataCommand(MobileEntity.java:61)\r\n\tat com.perfectomobile.selenium.MobileDevice.executeGenericCommand(MobileDevice.java:611)\r\n\tat com.perfectomobile.selenium.MobileDevice.executeGenericCommand(MobileDevice.java:55)\r\n\tat com.perfectomobile.selenium.server.appium.ExecuteScript.executeGenericCommand(ExecuteScript.java:120)\r\n\tat com.perfectomobile.selenium.server.appium.ExecuteScript.executeGenericCommand(ExecuteScript.java:79)\r\n\tat com.perfectomobile.selenium.server.appium.ExecuteScript.mobileCall(ExecuteScript.java:48)\r\n\tat com.perfectomobile.selenium.server.MobileWebDriverHandler.call(MobileWebDriverHandler.java:23)\r\n\tat org.openqa.selenium.remote.server.handler.WebDriverHandler.handle(WebDriverHandler.java:41)\r\n\tat org.openqa.selenium.remote.server.rest.ResultConfig.handle(ResultConfig.java:112)\r\n\tat org.openqa.selenium.remote.server.JsonHttpCommandHandler.handleRequest(JsonHttpCommandHandler.java:192)\r\n\tat org.openqa.selenium.remote.server.MobileDriverServlet.lambda$handleRequest$0(MobileDriverServlet.java:462)\r\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\r\n\tat java.lang.Thread.run(Thread.java:745)\r\n"
+}

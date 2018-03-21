@@ -1,0 +1,179 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "searchResult": "Introducing Quantum Framework",
+          "searchKey": "quantum perfecto",
+          "recId": "1"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@WebDD",
+          "@Web"
+        ],
+        "JSON_DATA_TABLE": "[{\"searchResult\":\"Introducing Quantum Framework\",\"searchKey\":\"quantum perfecto\",\"recId\":\"1\"},{\"searchResult\":\"GitHub\",\"searchKey\":\"Project-Quantum Quantum-Starter-Kit\",\"recId\":\"2\"}]",
+        "lineNo": 20.0,
+        "name": "Search Keyword Inline Data",
+        "Perfecto-report": "<a href=\"https://att.reporting.onsite.perfectomobile.com?externalId[0]=mf1840_RemoteWebDriver_18-02-27_14_12_13_2497&_timestamp[0]=1519769533228\" target=\"_blank\">view</a>",
+        "referece": "src/main/resources/scenarios/webSearch.feature",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Keyword Inline Data( java.util.Map)[pri:1002, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ea]"
+      },
+      "dependsOn": [],
+      "startTime": 1519769909172,
+      "duration": 18136,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "searchResult": "GitHub",
+          "searchKey": "Project-Quantum Quantum-Starter-Kit",
+          "recId": "2"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@WebDD",
+          "@Web"
+        ],
+        "JSON_DATA_TABLE": "[{\"searchResult\":\"Introducing Quantum Framework\",\"searchKey\":\"quantum perfecto\",\"recId\":\"1\"},{\"searchResult\":\"GitHub\",\"searchKey\":\"Project-Quantum Quantum-Starter-Kit\",\"recId\":\"2\"}]",
+        "lineNo": 20.0,
+        "name": "Search Keyword Inline Data",
+        "Perfecto-report": "<a href=\"https://att.reporting.onsite.perfectomobile.com?externalId[0]=mf1840_RemoteWebDriver_18-02-27_14_12_13_2497&_timestamp[0]=1519769533228\" target=\"_blank\">view</a>",
+        "referece": "src/main/resources/scenarios/webSearch.feature",
+        "resultFileName": "Search Keyword Inline DatamCUDloUTLc",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Keyword Inline Data( java.util.Map)[pri:1002, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ea]"
+      },
+      "dependsOn": [],
+      "startTime": 1519769929290,
+      "duration": 18547,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "recId": "1",
+          "searchKey": "quantum perfecto",
+          "searchResult": "Introducing Quantum Framework"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@WebDDxml",
+          "@Web"
+        ],
+        "key": "demo.websearch.dataset",
+        "lineNo": 31.0,
+        "name": "Search Keyword XML Data",
+        "Perfecto-report": "<a href=\"https://att.reporting.onsite.perfectomobile.com?externalId[0]=mf1840_RemoteWebDriver_18-02-27_14_12_13_2497&_timestamp[0]=1519769533228\" target=\"_blank\">view</a>",
+        "referece": "src/main/resources/scenarios/webSearch.feature",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Keyword XML Data( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]"
+      },
+      "dependsOn": [],
+      "startTime": 1519769949668,
+      "duration": 19169,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "recId": "2",
+          "searchKey": "Project-Quantum Quantum-Starter-Kit",
+          "searchResult": "GitHub"
+        }
+      ],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@WebDDxml",
+          "@Web"
+        ],
+        "key": "demo.websearch.dataset",
+        "lineNo": 31.0,
+        "name": "Search Keyword XML Data",
+        "Perfecto-report": "<a href=\"https://att.reporting.onsite.perfectomobile.com?externalId[0]=mf1840_RemoteWebDriver_18-02-27_14_12_13_2497&_timestamp[0]=1519769533228\" target=\"_blank\">view</a>",
+        "referece": "src/main/resources/scenarios/webSearch.feature",
+        "resultFileName": "Search Keyword XML DataTQPGqdUTAa",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Keyword XML Data( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]"
+      },
+      "dependsOn": [],
+      "startTime": 1519769970737,
+      "duration": 18820,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "searchResult": "Introducing Quantum Framework",
+          "searchKey": "quantum perfecto"
+        }
+      ],
+      "metaData": {
+        "datafile": "src/main/resources/data/testData.csv",
+        "description": "",
+        "groups": [
+          "@WebDDcsv",
+          "@Web"
+        ],
+        "lineNo": 40.0,
+        "name": "Search Keyword CSV Data",
+        "Perfecto-report": "<a href=\"https://att.reporting.onsite.perfectomobile.com?externalId[0]=mf1840_RemoteWebDriver_18-02-27_14_12_13_2497&_timestamp[0]=1519769533228\" target=\"_blank\">view</a>",
+        "referece": "src/main/resources/scenarios/webSearch.feature",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Keyword CSV Data( java.util.Map)[pri:1004, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ec]"
+      },
+      "dependsOn": [],
+      "startTime": 1519769991600,
+      "duration": 18964,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "searchResult": "GitHub",
+          "searchKey": "Project-Quantum Quantum-Starter-Kit "
+        }
+      ],
+      "metaData": {
+        "datafile": "src/main/resources/data/testData.csv",
+        "description": "",
+        "groups": [
+          "@WebDDcsv",
+          "@Web"
+        ],
+        "lineNo": 40,
+        "name": "Search Keyword CSV Data",
+        "Perfecto-report": "<a href=\"https://att.reporting.onsite.perfectomobile.com?externalId[0]=mf1840_RemoteWebDriver_18-02-27_14_12_13_2497&_timestamp[0]=1519769533228\" target=\"_blank\">view</a>",
+        "referece": "src/main/resources/scenarios/webSearch.feature",
+        "resultFileName": "Search Keyword CSV DataWaicNtqorO",
+        "sign": "src.main.resources.scenarios.webSearch.feature.Search Keyword CSV Data( java.util.Map)[pri:1004, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ec]"
+      },
+      "dependsOn": [],
+      "startTime": 1519770012376,
+      "duration": 19017,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}
